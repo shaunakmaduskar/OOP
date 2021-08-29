@@ -87,6 +87,7 @@ def searchData(banks):
     num=input()
     searchResults=[]
     if num == 1 :
+        
         ar=input('enter branch area')
         for i in banks.keys() :
              if banks[i]['area']==ar and bld in banks[i]['blood_grps'] :
